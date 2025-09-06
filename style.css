@@ -152,17 +152,17 @@ body {
 }
 
 .social-btn.tiktok {
-    background: linear-gradient(135deg, #000000, #ff0050);
+    background: linear-gradient(135deg, #1e3a8a, #3b82f6);
     color: white;
 }
 
 .social-btn.instagram {
-    background: linear-gradient(135deg, #833ab4, #fd1d1d, #fcb045);
+    background: linear-gradient(135deg, #1e40af, #60a5fa);
     color: white;
 }
 
 .social-btn.youtube {
-    background: linear-gradient(135deg, #ff0000, #cc0000);
+    background: linear-gradient(135deg, #1e40af, #2563eb);
     color: white;
 }
 
@@ -193,6 +193,12 @@ body {
 }
 
 .link-btn.primary {
+    background: linear-gradient(135deg, #fbbf24, #f59e0b);
+    color: #1e3a8a;
+    font-weight: 600;
+}
+
+.link-btn.secondary {
     background: linear-gradient(135deg, #fbbf24, #f59e0b);
     color: #1e3a8a;
     font-weight: 600;
@@ -280,7 +286,7 @@ body {
 }
 
 .contact-btn.whatsapp {
-    background: linear-gradient(135deg, #25d366, #128c7e);
+    background: linear-gradient(135deg, #1e40af, #60a5fa);
     color: white;
 }
 
@@ -290,13 +296,14 @@ body {
 }
 
 .contact-btn.location {
-    background: linear-gradient(135deg, #ea4335, #c5221f);
+    background: linear-gradient(135deg, #1e40af, #3b82f6);
     color: white;
 }
 
 .contact-btn.email {
-    background: linear-gradient(135deg, #60a5fa, #3b82f6);
-    color: white;
+    background: linear-gradient(135deg, #fbbf24, #f59e0b);
+    color: #1e3a8a;
+    font-weight: 600;
 }
 
 .contact-btn:hover {
@@ -329,18 +336,18 @@ body {
     justify-content: center;
     gap: 8px;
     padding: 14px;
-    background: linear-gradient(135deg, #25d366, #128c7e);
-    color: white;
+    background: linear-gradient(135deg, #fbbf24, #f59e0b);
+    color: #1e3a8a;
     text-decoration: none;
     border-radius: 15px;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 14px;
     transition: all 0.3s ease;
 }
 
 .admin-btn:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 20px rgba(37, 211, 102, 0.3);
+    box-shadow: 0 8px 20px rgba(251, 191, 36, 0.4);
 }
 
 /* Footer */
